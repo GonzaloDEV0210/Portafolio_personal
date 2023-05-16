@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #cfcbcb;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+}
+
+/* Estilos para el nav que esta dentro del header */
+.header__index {
+    background-color: var(--color_negro);
+    color: var(--color_blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding: 25px 0;
+}
+
+.title__page {
+    font-family: var(--font_one);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.list__nav__bar {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.item__list__nav {
+    font-family: var(--font_two);
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.link__item__nav {
+    color: var(--color_blanco);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.link__item__nav:hover {
+    color: var(--color_hover_gris);
+}
