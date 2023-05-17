@@ -225,4 +225,53 @@
     display: flex;
     justify-content: space-evenly;
     padding: 40px 0;
+    font-family: var(--font_three);
+    align-items: center;
+}
+
+.forms__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title__form {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form__input__text, .form__input__button {
+    width: 400px;
+    height: 40px;
+}
+
+.form__input__text {
+    background-color: var(--color_negro);
+    border: 1px solid var(--color_gris);
+    padding-left: 20px;
+}
+
+.form__input__text::placeholder {
+    color: var(--color_gris);
+}
+
+.form__input__button {
+    background-color: var(--color_blue);
+    border: 1px solid var(--color_blue);
+    color: var(--color_blanco);
+    font-size: 1.2em;
+    font-family: var(--font_three);
+    font-weight: bold;
+    transition: .5s;
+}
+
+.form__input__button:hover {
+    cursor: pointer;
+    background-color: var(--color_negro);
+    border: none;
+}
+
+.copyrith {
+    color: var(--color_gris);
+    font-size: .9em;
 }
