@@ -9,7 +9,7 @@
     --color_blanco: #FFF;
     --color_hover_gris: #cfcbcb;
     --color_blue: #4b75ff;
-    --color_blue_shadow: #4b75ff7c;
+    --color_blue_shadow: #4b75ffaf;
     --font_one: 'Black Han Sans', sans-serif;
     --font_two: 'Chakra Petch', sans-serif;
     --font_three: 'Sarabun', sans-serif;
@@ -52,4 +52,74 @@
 
 .link__item__nav:hover {
     color: var(--color_hover_gris);
+}
+
+/* Estilos a la portada en general */
+.container__portada {
+    width: 50%;
+}
+
+/* Estilos para la portada de la izquierda */
+.container__one__portada {
+    position: relative;
+    display: inline-block;
+}
+
+.image__portada {
+    width: 100%;
+}
+
+.shadow__blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color_blue_shadow);
+    z-index: 1;
+    text-align: end;
+    padding-top: 60px;
+    padding-right: 80px;
+}
+
+.text__shadow__blue {
+    text-align: start;
+    display: inline-block;
+    width: 58%;
+    font-family: var(--font_two);
+    color: var(--color_blanco);
+}
+
+.subtitle__shadow__blue {
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color_negro);
+}
+
+.title__shadow__blue {
+    font-size: 7em;
+    line-height: 1em;
+}
+
+.description__shadow__blue {
+    font-weight: bold;
+}
+
+.button__shadow__blue {
+    margin-top: 15px;
+    background-color: var(--color_blue);
+    color: var(--color_blanco);
+    border: 1px solid var(--color_blue);
+    padding: 8px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--font_two);
+    transition: .5s;
+}
+
+.button__shadow__blue:hover {
+    background-color: var(--color_negro);
+    border: 1px solid var(--color_negro);
+    cursor: pointer;
 }
