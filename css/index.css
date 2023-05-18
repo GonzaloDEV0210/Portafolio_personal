@@ -300,3 +300,8 @@
 .link__social__aside {
     color: var(--color_blanco);
 }
+
+/* Pestaña Activada */
+.link__pestaña__active {
+    color: var(--color_hover_gris);
+}
