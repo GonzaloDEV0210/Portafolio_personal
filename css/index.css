@@ -249,6 +249,7 @@
     background-color: var(--color_negro);
     border: 1px solid var(--color_gris);
     padding-left: 20px;
+    color: var(--color_gris);
 }
 
 .form__input__text::placeholder {
@@ -274,4 +275,28 @@
 .copyrith {
     color: var(--color_gris);
     font-size: .9em;
+}
+
+/* Estilos para la barra estática */
+.aside__static__icons {
+    background-color: var(--color_blue);
+    color: var(--color_blanco);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 20px;
+    padding: 20px 10px;
+}
+
+.icon__social__aside {
+    font-size: 1.1em;
+}
+
+.link__social__aside {
+    color: var(--color_blanco);
 }
