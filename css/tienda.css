@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #c0c0c0;
+    --color_gris: #a8a8a8;
+    --color_blue: #4b75ff;
+    --color_blue_shadow: #4b75ffaf;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+    --font_four: 'Rubik', sans-serif;
+    --font_five: 'Roboto', sans-serif;
+}
+
+.section__tienda {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: var(--font_two);
+    display: flex;
+}
+
+.footer__tienda {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
