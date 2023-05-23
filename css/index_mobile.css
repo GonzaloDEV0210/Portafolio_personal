@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #c0c0c0;
+    --color_gris: #a8a8a8;
+    --color_blue: #4b75ff;
+    --color_blue_shadow: #4b75ffaf;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+    --font_four: 'Rubik', sans-serif;
+    --font_five: 'Roboto', sans-serif;
+}
+
+@media (max-width: 412px) {
+    .list__nav__bar {
+        display: none;
+    }
+
+    .item__icon__bars {
+        display: inline-block;
+    }
+
+    .portada__section__index {
+        flex-direction: column;
+    }
+
+    .container__portada {
+        width: 100%;
+    }
+
+    /* Estilos del texto de la primera portada */
+    .text__shadow__blue {
+        float: none;
+        padding-left: 20px;
+    }
+
+    .subtitle__shadow__blue {
+        text-align: start;
+        padding-left: 7px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .title__shadow__blue {
+        font-size: 4em;
+        margin: 20px 0;
+    }
+
+    .description__shadow__blue {
+        width: 60%;
+        font-size: 1.2em;
+    }
+    /* ----------------------------------------- */
+
+    .container__two__portada {
+        margin: 0;
+        padding: 20px 40px;
+    }
+
+    /* Estilos para el aside */
+    .aside__static__icons {
+        top: 10%;
+        flex-direction: row;
+        left: 0;
+        position: absolute;
+        z-index: 2;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: var(--color_negro);
+        gap: 50px;
+    }
+
+    /* Estilos para las plataformas musicales */
+    .plataformas__musical {
+        margin-top: 50px;
+    }
+
+    .footer__index {
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .forms__footer {
+        max-width: 350px;
+    }
+
+    .form__input__text {
+        width: auto;
+    }
+
+    .form__input__button {
+        width: 350px;
+    }
+}

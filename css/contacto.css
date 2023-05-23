@@ -88,3 +88,30 @@
     flex-direction: column;
     gap: 10px;
 }
+
+/* Estilos para el formulario */
+.form__input {
+    background-color: #1d1f31;
+    border: 1px solid var(--color_blanco);
+    padding: 10px 5px 10px 20px;
+    color: var(--color_blanco);
+    font-family: var(--font_two);
+}
+
+.form__input::placeholder {
+    color: var(--color_blanco);
+    font-family: var(--font_two);
+}
+
+.form__textarea {
+    resize: none;
+}
+
+.input__button__contact__form {
+    background-color: var(--color_blue);
+    color: var(--color_blanco);
+    border: 1px solid var(--color_blue);
+    padding: 10px;
+    width: 30%;
+    margin-left: auto;
+}

@@ -305,3 +305,12 @@
 .link__pestaña__active {
     color: var(--color_hover_gris);
 }
+
+/* Estilos para el icono del menu */
+.icon__bars {
+    font-size: 1.5em;
+}
+
+.item__icon__bars {
+    display: none;
+}
