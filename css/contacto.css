@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #c0c0c0;
+    --color_gris: #a8a8a8;
+    --color_blue: #4b75ff;
+    --color_blue_shadow: #4b75ffaf;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+    --font_four: 'Rubik', sans-serif;
+    --font_five: 'Roboto', sans-serif;
+}
+
+.title__contacto {
+    color: var(--color_negro);
+}
+
+.container__contact__social {
+    padding: 100px 19%;
+    font-family: var(--font_three);
+}
+
+.title__contact__social {
+    font-size: 1.2em;
+}
+
+.list__contact__social {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.name__social__contact {
+    margin-top: 20px;
+}
+
+.icon__social__contact {
+    font-size: 3.5em;
+}
+
+.icon__facebook {
+    color: #1877F2;
+}
+
+.icon__youtube {
+    color: #FF0000;
+}
+
+.link__social__contact {
+    color: var(--color_negro);
+    text-decoration: none;
+}
+
+.icon__instagram {
+    background: linear-gradient(45deg, #405DE6, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FFC837);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* estilos para la parte del formulario */
+.container__form__contact {
+    padding: 50px 19%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color_negro);
+    color: var(--color_blanco);
+}
