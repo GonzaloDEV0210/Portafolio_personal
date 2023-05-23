@@ -68,10 +68,23 @@
 }
 
 /* estilos para la parte del formulario */
-.container__form__contact {
+.container__form__message__contact {
     padding: 50px 19%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--color_negro);
+    background-color: #1d1f31;
     color: var(--color_blanco);
+    font-family: var(--font_two);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container__message {
+    padding-right: 240px;
+}
+
+.form__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
