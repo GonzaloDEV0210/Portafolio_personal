@@ -311,6 +311,6 @@
     font-size: 1.5em;
 }
 
-.item__icon__bars {
+.item__icon__bars, .icon__x, .li__icon__x {
     display: none;
 }

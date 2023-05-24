@@ -7,10 +7,15 @@
         <title>Gonzalo Palma Oficial</title>
         <!-- estilos css -->
         <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/index_mobile.css">
         <link rel="stylesheet" href="./css/musica.css">
+        <link rel="stylesheet" href="./css/musica_mobile.css">
         <link rel="stylesheet" href="./css/tienda.css">
+        <link rel="stylesheet" href="./css/tienda_mobile.css">
         <link rel="stylesheet" href="./css/agenda.css">
+        <link rel="stylesheet" href="./css/agenda_mobile.css">
         <link rel="stylesheet" href="./css/contacto.css">
+        <link rel="stylesheet" href="./css/contacto_mobile.css">
         <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +33,15 @@
     <header class="header__index">
         <h1 class="title__page">Gonzalo Palma</h1>
         <nav class="bar__nav__index">
-            <ul class="list__nav__bar">
+            <ul class="list__nav__bar mostrar__box">
+                <li class="item__list__nav li__icon__x"><a href="#" class="link__item__nav"><i class="fa-solid fa-xmark icon__x"></i></a></li>
                 <li class="item__list__nav"><a href="./index.html" class="link__item__nav">Inicio</a></li>
                 <li class="item__list__nav"><a href="./musica.html" class="link__item__nav">Música</a></li>
                 <li class="item__list__nav"><a href="./tienda.html" class="link__item__nav">Tienda</a></li>
                 <li class="item__list__nav"><a href="./agenda.html" class="link__item__nav">Agenda</a></li>
                 <li class="item__list__nav"><a href="./contacto.html" class="link__item__nav link__pestaña__active">Contácto</a></li>
             </ul>
+            <p class="item__icon__bars"><a href="#" class="link__item__nav"><i class="fa-solid fa-bars icon__bars"></i></a></p>
         </nav>
     </header>
     <section class="section__contacto">
@@ -104,5 +111,6 @@
         <a href="https://www.tiktok.com/@gonzalopalma89" class="link__social__aside" target="_blank"><i class="fa-brands fa-tiktok icon__social__aside"></i></a>
         <a href="#" class="link__social__aside"><i class="fa-brands fa-spotify icon__social__aside"></i></a>
     </aside>
+    <script src="js/index.js"></script>
 </body>
 </html>

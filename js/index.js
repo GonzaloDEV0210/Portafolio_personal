@@ -12,3 +12,7 @@ function ocultar_block() {
 
 icon_x.addEventListener('click', ocultar_block);
 icon_bar.addEventListener('click', agregar_block);
+
+function redireccionar_agenda() {
+    window.location.href = '../agenda.html';
+}

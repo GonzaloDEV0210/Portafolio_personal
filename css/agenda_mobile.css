@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #c0c0c0;
+    --color_gris: #a8a8a8;
+    --color_blue: #4b75ff;
+    --color_blue_shadow: #4b75ffaf;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+    --font_four: 'Rubik', sans-serif;
+    --font_five: 'Roboto', sans-serif;
+}
+
+@media (max-width: 412px) {
+    .container__agenda__list__item {
+        padding: 50px;
+    }
+    
+    .item__agenda {
+        flex-direction: column;
+    }
+    
+    .izquierda__agenda {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+    }
+    
+    .number__agenda {
+        grid-column: 2 / 3;
+        margin-left: 8px;
+        font-size: .9em;
+    }
+    
+    .dia__mes__agenda {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        display: flex;
+        gap: 8px;
+    }
+    
+    .direccion__agenda {
+        grid-column: 1 / 3;
+    }
+    
+    .dia__agenda {
+        color: var(--color_blanco);
+    }
+    
+    .container__mas__informacion__agenda, .btn__informacion__agenda {
+        width: 100%;
+    }
+    
+    .container__mas__informacion__agenda {
+        margin-top: 20px;
+    }
+}

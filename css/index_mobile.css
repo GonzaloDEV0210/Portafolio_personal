@@ -38,6 +38,10 @@
         padding: 50px;
     }
 
+    .icon__x {
+        display: block;
+    }
+
     .mostrar__box {
         display: none;
     }

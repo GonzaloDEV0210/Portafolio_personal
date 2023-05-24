@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #c0c0c0;
+    --color_gris: #a8a8a8;
+    --color_blue: #4b75ff;
+    --color_blue_shadow: #4b75ffaf;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+    --font_four: 'Rubik', sans-serif;
+    --font_five: 'Roboto', sans-serif;
+}
+
+@media (max-width: 412px) {
+    .container__contact__social {
+        padding: 50px;
+    }
+
+    .title__contact__social {
+        font-size: 1em;
+    }
+
+    .list__contact__social {
+        margin: 30px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container__form__message__contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        padding: 40px 20px;
+        grid-gap: 30px;
+    }
+
+    .container__message {
+        padding: 0;
+    }
+}

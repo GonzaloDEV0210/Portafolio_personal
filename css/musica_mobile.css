@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_negro: #000;
+    --color_blanco: #FFF;
+    --color_hover_gris: #c0c0c0;
+    --color_gris: #a8a8a8;
+    --color_blue: #4b75ff;
+    --color_blue_shadow: #4b75ffaf;
+    --font_one: 'Black Han Sans', sans-serif;
+    --font_two: 'Chakra Petch', sans-serif;
+    --font_three: 'Sarabun', sans-serif;
+    --font_four: 'Rubik', sans-serif;
+    --font_five: 'Roboto', sans-serif;
+}
+
+@media (max-width: 412px) {
+    .container__list__music__portada {
+        grid-template-columns: 1fr;
+        padding: 50px 0 0 0;
+    }
+
+    .container__music__musica {
+        width: 100%;
+    }
+
+    .container__title__musica {
+        padding-left: 8%;
+        font-size: 2em;
+    }
+
+    .title__musica {
+        transform: translateY(66%);
+    }
+}
